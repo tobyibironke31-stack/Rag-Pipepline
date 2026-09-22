@@ -1,0 +1,24 @@
+llama-index-core
+llama-index-embeddings-huggingface
+llama-index-retrievers-bm25
+llama-index-llms-google-genai
+sentence-transformers
+pymupdf
+gradio
+pandas
+python-dotenv
+nest_asyncio
+
+llama-index-core: Core orchestration framework for documents, nodes, indices, and query engines.
+
+llama-index-embeddings-huggingface & sentence-transformers: Generates dense vector embeddings (e5-small-v2) and runs the cross-encoder reranker (ms-marco-MiniLM-L-6-v2).
+
+llama-index-retrievers-bm25: Provides keyword-based lexical search.
+
+llama-index-llms-google-genai: Connects Google Gemini for generating answers.
+
+pymupdf: High-speed PDF text extraction and page metadata preservation.
+
+gradio: Web interface for file uploads and the chat component.
+
+python-dotenv: Automatically loads your Gemini API key from a .env file into your Python scripts.
