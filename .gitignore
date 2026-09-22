@@ -1,0 +1,20 @@
+# Environment variables and API keys
+.env
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python compiled bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Operating system artifacts
+.DS_Store
+Thumbs.db
